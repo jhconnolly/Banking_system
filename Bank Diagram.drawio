@@ -1,0 +1,52 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130.0.0.0 Safari/537.36" version="24.8.4">
+  <diagram name="Page-1" id="qjk1lDDi0u9H2A3Levll">
+    <mxGraphModel dx="1050" dy="1681" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="bktmQ_a_XHdYp5fOmclU-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bktmQ_a_XHdYp5fOmclU-1" target="bktmQ_a_XHdYp5fOmclU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bktmQ_a_XHdYp5fOmclU-10" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bktmQ_a_XHdYp5fOmclU-1" target="bktmQ_a_XHdYp5fOmclU-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bktmQ_a_XHdYp5fOmclU-6" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bktmQ_a_XHdYp5fOmclU-2" target="bktmQ_a_XHdYp5fOmclU-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bktmQ_a_XHdYp5fOmclU-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.52;entryY=0.935;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="bktmQ_a_XHdYp5fOmclU-2" target="bktmQ_a_XHdYp5fOmclU-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="bktmQ_a_XHdYp5fOmclU-5" value="&lt;u&gt;Loan&lt;/u&gt;&lt;div style=&quot;text-align: left;&quot;&gt;loan_id&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;customer&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;account&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+make_payment()&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="-890" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="bktmQ_a_XHdYp5fOmclU-7" value="&lt;u&gt;Employee&lt;/u&gt;&lt;div style=&quot;text-align: left;&quot;&gt;employee_id&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;name&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;position&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="-740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bktmQ_a_XHdYp5fOmclU-8" value="&lt;u&gt;CreditCard&lt;/u&gt;&lt;div style=&quot;text-align: left;&quot;&gt;card_number&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;customer&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;credit_limit&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;balance&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+charge()&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+make_payment()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="520" y="-1075" width="120" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="bktmQ_a_XHdYp5fOmclU-11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="bktmQ_a_XHdYp5fOmclU-1" target="bktmQ_a_XHdYp5fOmclU-2">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="-1005" as="sourcePoint" />
+            <mxPoint x="110" y="-910" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="bktmQ_a_XHdYp5fOmclU-2" value="&lt;u&gt;Account&lt;/u&gt;&lt;div style=&quot;text-align: left;&quot;&gt;account_type&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;balance&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+deposit()&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+withdraw&lt;/div&gt;" style="whiteSpace=wrap;html=1;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="-1060" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="bktmQ_a_XHdYp5fOmclU-1" value="&lt;u&gt;Customer&lt;/u&gt;&lt;div style=&quot;text-align: left;&quot;&gt;first_name&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;last_name&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;address&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;accounts&lt;/div&gt;&lt;div style=&quot;text-align: left;&quot;&gt;+add_account()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
+          <mxGeometry x="320" y="-1060" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="bktmQ_a_XHdYp5fOmclU-14" value="&lt;u style=&quot;&quot;&gt;Data Loader&lt;/u&gt;&lt;div&gt;+save_data(data,dilename)&lt;/div&gt;&lt;div&gt;+load_data(file)&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-740" width="180" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bktmQ_a_XHdYp5fOmclU-15" value="&lt;u&gt;Logger&lt;/u&gt;&lt;div&gt;+log_transactions()&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="-740" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="bktmQ_a_XHdYp5fOmclU-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="bktmQ_a_XHdYp5fOmclU-8" target="bktmQ_a_XHdYp5fOmclU-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
